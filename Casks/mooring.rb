@@ -1,9 +1,9 @@
 cask "mooring" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "75f1a1e32688dccae65a5fc1b479b62d541153fb25f1e655daef3c26416c42db",
-         intel: "e91c7175950dff4440b8440be5897d1f2fac0ba9a17ed227b2bcd1637dbdf777"
+  version "0.1.1"
+  sha256 arm:   "b6219a18e3fb5a8097df53d043a2878cbb1919b16e93eb6379a3154467d4ee0f",
+         intel: "6408dccea21f7ade268f6a86be4f4228ab4c03005d399bc980bc594c76436c32"
 
   url "https://github.com/yyasar21/Mooring/releases/download/v#{version}/Mooring_#{version}_#{arch}.dmg",
       verified: "github.com/yyasar21/Mooring/"
